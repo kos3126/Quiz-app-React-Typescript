@@ -1,5 +1,5 @@
 import styled, { createGlobalStyle } from 'styled-components';
-import BGImage from './images/latte.jpg';
+import BGImage from './images/coffee.jpg';
 
 export const GlobalStyles = createGlobalStyle`
   * {
@@ -32,7 +32,7 @@ export const Wrapper = styled.div`
   }
 
   .score {
-    color: #fff;
+    color: rgb(235, 235, 235);
     font-size: 2rem;
     margin: 0;
   }

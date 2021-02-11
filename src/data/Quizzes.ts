@@ -25,4 +25,19 @@ export const QuizData: Quiz[] = [
   { question: 'シチリアレモン＆トニック', correct_answer: 'リモナータ' },
   { question: 'アイスチョコレート', correct_answer: 'チョコラータ フレッド' },
   { question: 'スパークリングウォーター', correct_answer: 'ガッサータ' },
+  { question: 'エスプレッソ ダブル', correct_answer: 'ドッピオ' },
+  { question: 'エスプレッソ コン パンナ', correct_answer: 'コンパンナ' },
+  { question: 'ホットコーヒー', correct_answer: 'ブレンド' },
+  { question: 'カプチーノ ウィーンスタイル', correct_answer: 'ヴィエネーゼ' },
+  {
+    question: 'アイス ドルチェプレッソ ラズベリー in ブラック',
+    correct_answer: 'ドルチェプレッソ フレッド',
+  },
+  { question: 'アイスコーヒー', correct_answer: 'カフェ フレッド' },
+  { question: 'アイス エスプレッソ', correct_answer: 'エスプレッソ フレッド' },
+  { question: 'アイス 抹茶カプチーノ', correct_answer: '抹茶 フレッド' },
+  {
+    question: 'アイス カプチーノ ウィーンスタイル',
+    correct_answer: 'ヴィエネーゼ フレッド',
+  },
 ];
