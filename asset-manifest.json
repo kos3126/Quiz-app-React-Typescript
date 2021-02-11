@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "/quiz-app-react-typeScript/static/js/main.28bdd8c1.chunk.js",
-    "main.js.map": "/quiz-app-react-typeScript/static/js/main.28bdd8c1.chunk.js.map",
-    "runtime-main.js": "/quiz-app-react-typeScript/static/js/runtime-main.1841d297.js",
-    "runtime-main.js.map": "/quiz-app-react-typeScript/static/js/runtime-main.1841d297.js.map",
-    "static/js/2.2c130484.chunk.js": "/quiz-app-react-typeScript/static/js/2.2c130484.chunk.js",
-    "static/js/2.2c130484.chunk.js.map": "/quiz-app-react-typeScript/static/js/2.2c130484.chunk.js.map",
-    "static/js/3.154db119.chunk.js": "/quiz-app-react-typeScript/static/js/3.154db119.chunk.js",
-    "static/js/3.154db119.chunk.js.map": "/quiz-app-react-typeScript/static/js/3.154db119.chunk.js.map",
-    "index.html": "/quiz-app-react-typeScript/index.html",
-    "service-worker.js": "/quiz-app-react-typeScript/service-worker.js",
-    "service-worker.js.map": "/quiz-app-react-typeScript/service-worker.js.map",
-    "static/js/2.2c130484.chunk.js.LICENSE.txt": "/quiz-app-react-typeScript/static/js/2.2c130484.chunk.js.LICENSE.txt",
-    "static/media/latte.800d13be.jpg": "/quiz-app-react-typeScript/static/media/latte.800d13be.jpg"
+    "main.js": "/quiz-app-react-typescript/static/js/main.5f6d0371.chunk.js",
+    "main.js.map": "/quiz-app-react-typescript/static/js/main.5f6d0371.chunk.js.map",
+    "runtime-main.js": "/quiz-app-react-typescript/static/js/runtime-main.e52b0162.js",
+    "runtime-main.js.map": "/quiz-app-react-typescript/static/js/runtime-main.e52b0162.js.map",
+    "static/js/2.79206a5d.chunk.js": "/quiz-app-react-typescript/static/js/2.79206a5d.chunk.js",
+    "static/js/2.79206a5d.chunk.js.map": "/quiz-app-react-typescript/static/js/2.79206a5d.chunk.js.map",
+    "static/js/3.154db119.chunk.js": "/quiz-app-react-typescript/static/js/3.154db119.chunk.js",
+    "static/js/3.154db119.chunk.js.map": "/quiz-app-react-typescript/static/js/3.154db119.chunk.js.map",
+    "index.html": "/quiz-app-react-typescript/index.html",
+    "service-worker.js": "/quiz-app-react-typescript/service-worker.js",
+    "service-worker.js.map": "/quiz-app-react-typescript/service-worker.js.map",
+    "static/js/2.79206a5d.chunk.js.LICENSE.txt": "/quiz-app-react-typescript/static/js/2.79206a5d.chunk.js.LICENSE.txt",
+    "static/media/latte.800d13be.jpg": "/quiz-app-react-typescript/static/media/latte.800d13be.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1841d297.js",
-    "static/js/2.2c130484.chunk.js",
-    "static/js/main.28bdd8c1.chunk.js"
+    "static/js/runtime-main.e52b0162.js",
+    "static/js/2.79206a5d.chunk.js",
+    "static/js/main.5f6d0371.chunk.js"
   ]
 }
