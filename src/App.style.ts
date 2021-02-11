@@ -32,26 +32,26 @@ export const Wrapper = styled.div`
   }
 
   .score {
-    color: rgb(235, 235, 235);
+    color: rgb(245, 245, 245);
     font-size: 2rem;
-    margin: 0;
+    margin: -15px 0 0 0;
   }
 
   h1 {
     font-family: Fascinate Inline, Haettenschweiler, 'Arial Narrow Bold',
       sans-serif;
-    background-image: linear-gradient(180deg, #fff, #87f1ff);
+    background-image: linear-gradient(180deg, #fff, #913703);
     background-size: 100%;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
-    filter: drop-shadow(2px 2px #0085a3);
-    font-size: 70px;
+    filter: drop-shadow(2px 2px #a15b06);
+    font-size: 50px;
     font-weight: 400;
     text-align: center;
-    margin: 20px;
+    margin-top: 30px;
   }
 
   .start,
@@ -59,11 +59,14 @@ export const Wrapper = styled.div`
     cursor: pointer;
     background: linear-gradient(180deg, #fff, #ffcc91);
     border: 2px solid #d38558;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+    color: #331001;
     height: 40px;
     margin: 20px 0;
-    padding: 0 40px;
+    padding: 0 30px;
+    font-size: 18px;
+    line-height: 40px;
   }
 
   .start {
