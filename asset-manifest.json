@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/quiz-app-react-typescript/static/js/main.5f6d0371.chunk.js",
-    "main.js.map": "/quiz-app-react-typescript/static/js/main.5f6d0371.chunk.js.map",
+    "main.js": "/quiz-app-react-typescript/static/js/main.da34fe37.chunk.js",
+    "main.js.map": "/quiz-app-react-typescript/static/js/main.da34fe37.chunk.js.map",
     "runtime-main.js": "/quiz-app-react-typescript/static/js/runtime-main.e52b0162.js",
     "runtime-main.js.map": "/quiz-app-react-typescript/static/js/runtime-main.e52b0162.js.map",
     "static/js/2.79206a5d.chunk.js": "/quiz-app-react-typescript/static/js/2.79206a5d.chunk.js",
@@ -12,11 +12,11 @@
     "service-worker.js": "/quiz-app-react-typescript/service-worker.js",
     "service-worker.js.map": "/quiz-app-react-typescript/service-worker.js.map",
     "static/js/2.79206a5d.chunk.js.LICENSE.txt": "/quiz-app-react-typescript/static/js/2.79206a5d.chunk.js.LICENSE.txt",
-    "static/media/latte.800d13be.jpg": "/quiz-app-react-typescript/static/media/latte.800d13be.jpg"
+    "static/media/coffee.ef604380.jpg": "/quiz-app-react-typescript/static/media/coffee.ef604380.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.e52b0162.js",
     "static/js/2.79206a5d.chunk.js",
-    "static/js/main.5f6d0371.chunk.js"
+    "static/js/main.da34fe37.chunk.js"
   ]
 }
