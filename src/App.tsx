@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { fetchQuizQuestions } from './API';
+// import { fetchQuizQuestions } from './API';
+import { getQuizzes } from './data/getQuizzes';
 // Components
 import QuestionCard from './components/QuestionCard';
 // Types
-import { QuestionState, Difficulty } from './API';
+// import { QuestionState, Difficulty } from './API';
+import { QuizState } from './data/getQuizzes';
 import { GlobalStyles, Wrapper } from './App.style';
 // Styles
 
@@ -14,11 +16,12 @@ export type AnswerObject = {
   correctAnswer: string;
 };
 
-const TOTAL_QUESTIONS = 10;
+const TOTAL_QUESTIONS = 15;
 
 const App = () => {
   const [loading, setLoading] = useState(false);
-  const [questions, setQuestions] = useState<QuestionState[]>([]);
+  // const [questions, setQuestions] = useState<QuestionState[]>([]);
+  const [questions, setQuestions] = useState<QuizState[]>([]);
   const [number, setNumber] = useState(0);
   const [userAnswers, setUserAnswers] = useState<AnswerObject[]>([]);
   const [score, setScore] = useState(0);
@@ -32,10 +35,7 @@ const App = () => {
     setLoading(true);
     setGameOver(false);
 
-    const newQuestions = await fetchQuizQuestions(
-      TOTAL_QUESTIONS,
-      Difficulty.EASY
-    );
+    const newQuestions = await getQuizzes();
 
     setQuestions(newQuestions);
     setScore(0);
@@ -79,7 +79,7 @@ const App = () => {
     <>
       <GlobalStyles />
       <Wrapper>
-        <h1>React QUIZ</h1>
+        <h1>Cafe QUIZ</h1>
         {gameOver || userAnswers.length === TOTAL_QUESTIONS ? (
           <button className="start" onClick={startTrivia}>
             Start
