@@ -1,7 +1,7 @@
 {
   "name": "quiz-app-typescript-react",
   "version": "0.1.0",
-  "homepage": "https://kos3126.github.io/Quiz-app-React-TypeScript",
+  "homepage": "https://kos3126.github.io/quiz-app-react-typescript",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
